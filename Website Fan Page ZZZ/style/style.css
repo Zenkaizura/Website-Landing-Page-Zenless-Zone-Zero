@@ -1,0 +1,408 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background-color: #2B2E30;
+    border-bottom: 3px solid #A1C038;
+    font-family: "Russo One", sans-serif;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+header h1 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+
+.logo-img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
+
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: color 0.25s ease;
+}
+
+nav a:hover {
+    color: #A1C038;
+}
+
+.nav-btn {
+    background-color: #A1C038;
+    color: #181A1B !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+
+}
+
+.nav-btn:hover {
+    background-color: #FFE600;
+}
+
+
+.zzz-card {
+    background-color: #121214;
+    border: 2px solid #3A3D40;
+    margin: 10px 25px;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+    color: #dcdcdc;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.zzz-card h2 {
+    background-color: #A1C038;
+    color: #181A1B;
+    padding: 8px 20px;
+    border-radius: 10px;
+    transform: skewX(-12deg);
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+    font-family: "Russo One", sans-serif;
+}
+
+.highlight {
+    color: #A1C038;
+    font-weight: 600
+}
+
+main {
+    display: flex;
+    gap: 24px;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+#content {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background-color: #121214;
+    border: 2px solid #3A3D40;
+    border-radius: 12px;
+    padding: 20px;
+    height: fit-content;
+    box-shadow: 0 0 0 1px #000000;
+}
+
+aside h2 {
+    background-color: #FFE600;
+    color: black;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transform: skewX(-12deg);
+    font-family: "Russo One", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #A1C038;
+    display: block;
+    margin: 0 auto 20px auto;
+}
+
+
+aside h3 {
+    margin: 6px;
+    font-size: 1.1rem;
+}
+
+aside p {
+    display: inline-block;
+    background-color: #2B2E30;
+    color: #A1C038;
+    font-size: 0.8rem;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+aside ul {
+    list-style: none;
+    padding-top: 12px;
+    margin: 0;
+    text-align: left;
+    font-size: 0.88rem;
+    border-top: 1px dashed #3A3D40;
+}
+
+aside ul li {
+    margin-bottom: 8px;
+    color: #DCDCDC;
+}
+
+aside li span {
+    color: #8E9398;
+    font-weight: 600;
+}
+
+.gameplay-list {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+
+.gameplay-list li {
+    margin-bottom: 12px;
+    color: #DCDCDC;
+    line-height: 1.5;
+}
+
+.ui-list {
+    color: #A1C038;
+    font-weight: 600;
+    font-family: "Russo One";
+}
+
+
+.Daze {
+    color: #E7DD4E;
+    font-weight: 600;
+    font-family: "Russo One";
+}
+
+.Fire {
+    color: #F33500;
+    font-weight: 600;
+    font-family: "Russo One";
+}
+
+.Ice {
+    color: #89E7E3;
+    font-weight: 600;
+    font-family: "Russo One";
+}
+
+.Electric {
+    color: #00ABF7;
+    font-weight: 600;
+    font-family: "Russo One";
+}
+
+.Ether {
+    color: #FF2F79;
+    font-weight: 600;
+    font-family: "Russo One";
+}
+
+.agent-card {
+    background-color: #121214;
+    border: 2px solid #3A3D40;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: left;
+    margin: 30px;
+}
+
+.card-tag {
+    font-size: 0.7rem;
+    font-weight: bold;
+    color: #555A60;
+    letter-spacing: 1px;
+    display: block;
+    margin: 8px;
+}
+
+.banner-agent {
+    background-color: #0A0B0C;
+    border: 1px solid #2B2E30;
+    ;
+    border-radius: 12px;
+    padding: 20px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    min-height: 140px;
+}
+
+.banner-text {
+    font-family: "Russo One", 'sans-serif';
+}
+
+.banner-text .nama-faksi {
+    color: #DCDCDC;
+    font-size: 0.95rem;
+    font-weight: 600;
+    display: block;
+
+}
+
+.banner-text h3 {
+    font-family: "Russo One", sans-serif;
+    font-size: 1.8rem;
+    margin: 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.logo-faksi {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+.codename {
+    color: #3A3D40;
+    font-weight: bold;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+}
+
+.agent-img {
+    height: 250px;
+    width: auto;
+    object-fit: contain;
+}
+
+.agent-desc {
+    color: #9A9E9E;
+    font-size: 0.88rem;
+    line-height: 1.6;
+    margin: 20px 0 12px 0;
+}
+
+.section-title {
+    color: #A1C038;
+    font-family: 'Russo One', sans-serif;
+    font-size: 1.5rem;
+    margin: 30px 0 15px 0;
+    border-left: 4px solid #FFE600;
+    padding-left: 10px;
+}
+
+footer {
+    background-color: #2B2E30;
+    border-top: 3px solid #A1C038;
+    text-align: center;
+    padding: 20px 15px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    color: #DCDCDC;
+    font-size: 0.88rem;
+    font-family: sans-serif;
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 16px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px 14px;
+    }
+
+    main {
+        flex-direction: column;
+        padding: 0 15px;
+        margin: 20px auto;
+    }
+
+    .zzz-card h2 {
+        font-size: 0.95rem !important;
+        padding: 6px 12px;
+    }
+
+    aside {
+        order: 2;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .logo-img {
+        height: 35px;
+    }
+
+    .zzz-card h2,
+    aside h2 {
+        font-size: 1rem;
+    }
+
+
+    .agent-banner {
+        padding: 14px 18px;
+        min-height: auto;
+        justify-content: flex-start;
+    }
+
+    .agent-img {
+        display: none;
+    }
+
+    .banner-text h2 {
+        font-size: 1.35rem;
+        gap: 8px;
+    }
+
+    .faksi-mini-logo {
+        height: 22px;
+    }
+
+    .agent-stats {
+        flex-wrap: wrap;
+        gap: 10px 16px;
+    }
+
+
+}
